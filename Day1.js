@@ -3,11 +3,30 @@
 // 1. JS introduction
 
 // Best Intro of JS and its History
+
+// Javascript (JS) is a light weight object oriented programming language
+// which is used by several websites for scripting the webpages. It is an interpreted
+// full fledged programming language that enables dynamic interactivity on websites
+// when applied to an HTML document.
+
+// Usage of JS to create interactive websites
+// 1. Client side (Frontend) validation.
+// 2. Popup
+// 3. Event on click etc.....
+// 4. SPAs:  Single page applications (Websites that doesn't reload when user navigates from one page to another).
+// React, Angular, Vue etc like frameworks used to create SPAs.
+
+// ECMAscript is the standard which was followed  by Javascript while the language was in development.
+// ECMA international org set the standard for scripting language. JS follow this standard.
+
+// ES6/ES2015/ECMAScript all are same.
+
 // https://youtu.be/kXrFo4pq23Q?si=vtF_sPYoOZuGseUp
 
 // Reading material
 // MDN docs for JS or javascript.info
 // 30-days-of-JS
+// caniuse.com to check if a feature of HTML,CSS,JS is compatible or not in any browser.
 
 // alert in JS for warnings in the browser
 // alert('Any message');
