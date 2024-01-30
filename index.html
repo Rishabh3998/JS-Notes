@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Notes</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div>
@@ -90,6 +91,50 @@
       <p>Triggered <span class="count4">0</span> times</p>
     </div>
 
+    <h1>Event propagation, bubbling</h1>
+    <div class="div">
+      DIV
+      <form class="form" action="">
+        FORM
+        <button class="clickMe">Click me</button>
+      </form>
+    </div>
+
+    <h1>currentTarget, target, this</h1>
+    <div class="div2">
+      DIV
+      <form class="form2" action="">
+        FORM
+        <button class="clickMe2">Click me</button>
+      </form>
+    </div>
+
+    <h1>Event capturing/trickling</h1>
+    <div class="div3">
+      DIV
+      <form class="form3" action="">
+        FORM
+        <button class="clickMe3">Click me</button>
+      </form>
+    </div>
+
+    <h1>Stop bubbling, capturing</h1>
+    <div class="div4">
+      DIV
+      <form class="form4" action="">
+        FORM
+        <button class="clickMe4">Click me</button>
+      </form>
+    </div>
+
+    <div class="products">
+      <span class="mobile">mobile</span>
+      <span class="headphone">headphone</span>
+      <span class="laptop">laptop</span>
+      <span class="speaker">speaker</span>
+      <span class="charger">charger</span>
+    </div>
+
     <!-- <script src="./Day8.js"></script> -->
     <!-- <script src="./Day9.js"></script> -->
     <!-- <script src="./InterviewPrep/Day6.js"></script> -->
@@ -99,6 +144,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./InterviewPrep/Day11.js"></script>
+    <!-- <script src="./InterviewPrep/Day11.js"></script> -->
+    <script src="./InterviewPrep/Day12.js"></script>
   </body>
 </html>
